@@ -1,6 +1,6 @@
-# The `mv` command
+# The `dir` command
 
-The `mv` command to list the contents of a directory(_the current directory by default_). **It differs from ls command in the format of listing the contents**. By default, the dir command lists the files and folders in columns, sorted vertically and special characters are represented by backslash escape sequences.
+The `dir` command lists the contents of a directory(_the current directory by default_). **It differs from ls command in the format of listing the content**. By default, the dir command lists the files and folders in columns, sorted vertically and special characters are represented by backslash escape sequences.
 
 ### Syntax:
 
