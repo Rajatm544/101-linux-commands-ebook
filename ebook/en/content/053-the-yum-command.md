@@ -38,24 +38,24 @@ yum update mysql
 
 ### Commonly used commands along with yum:
 
-| **Command**     | **Description**                                   |
-| :-------------- | :------------------------------------------------ |
-| `install`       | Installs the specified packages                   |
-| `remove`        | Removes the specified packages                    |
-| `search`        | Searches package metadata for keywords            |
-| `info`          | Lists the description                             |
-| `update`        | Updates each package to the latest version        |
-| `repolist`      | Lists repositories                                |
-| `history`       | Displays what has happened in past transactions   |
-| ` groupinstall` | To install a particular package group             |
-| ` clean`        | To clean all cached files from enabled repository |
+| **Command**    | **Description**                                   |
+| :------------- | :------------------------------------------------ |
+| `install`      | Installs the specified packages                   |
+| `remove`       | Removes the specified packages                    |
+| `search`       | Searches package metadata for keywords            |
+| `info`         | Lists the description                             |
+| `update`       | Updates each package to the latest version        |
+| `repolist`     | Lists repositories                                |
+| `history`      | Displays what has happened in past transactions   |
+| `groupinstall` | To install a particular package group             |
+| `clean`        | To clean all cached files from enabled repository |
 
 ### Additional Flags and their Functionalities:
 
-| **Short Flag**    | **Long Flag**   | **Description**                                                                                                                                                     |
-| :---------------- | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `-C`              | `--cacheonly`   | Run entirely from system cache, don’t update the cache and use it even in case it is expired.                                                                       |
-| <center>-<center> | `--security`    | Includes packages that provide a fix for a security issue. Applicable for the upgrade command.                                                                      |
-| `-y`              | `--assumeyes`   | Automatically answer yes for all questions.                                                                                                                         |
-| <center>-<center> | `--skip-broken` | Resolve depsolve problems by removing packages that are causing problems from the transaction. It is an alias for the strict configuration option with value False. |
-| `-v`              | `--verbose`     | Verbose operation, show debug messages.                                                                                                                             |
+| **Short Flag**    | **Long Flag**   | **Description**                                                                                                                                                      |
+| :---------------- | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `-C`              | `--cacheonly`   | Runs entirely from system cache, doesn’t update the cache and use it even in case it is expired.                                                                     |
+| <center>-<center> | `--security`    | Includes packages that provide a fix for a security issue. Applicable for the upgrade command.                                                                       |
+| `-y`              | `--assumeyes`   | Automatically answer yes for all questions.                                                                                                                          |
+| <center>-<center> | `--skip-broken` | Resolves depsolve problems by removing packages that are causing problems from the transaction. It is an alias for the strict configuration option with value False. |
+| `-v`              | `--verbose`     | Verbose operation, show debug messages.                                                                                                                              |
